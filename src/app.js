@@ -82,11 +82,6 @@ app.get("/weather", (req, res) => {
     });
 
   });
-  // res.send({
-  //   forecast: "Raining",
-  //   location: "Cuttack",
-  //   city: req.query.city,
-  // });
 });
 
 app.get("/help/*", (req, res) => {
